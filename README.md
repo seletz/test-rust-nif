@@ -1,21 +1,3 @@
 # TestRustNif
 
-**TODO: Add description**
-
-## Installation
-
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `test_rust_nif` to your list of dependencies in `mix.exs`:
-
-```elixir
-def deps do
-  [
-    {:test_rust_nif, "~> 0.1.0"}
-  ]
-end
-```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at <https://hexdocs.pm/test_rust_nif>.
-
+A playground to play with [rustler])https://hexdocs.pm/rustler/readme.html) inspired by [this blog post](https://fly.io/phoenix-files/elixir-and-rust-is-a-good-mix/).
