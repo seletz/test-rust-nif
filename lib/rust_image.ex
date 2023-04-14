@@ -3,4 +3,6 @@ defmodule TestRustNif.RustImage do
 
   def add(_a, _b), do: :erlang.nif_error(:nif_not_loaded)
 
+  def jpg(_input, _output, _quality), do: :erlang.nif_error(:nif_not_loaded)
+
 end
